@@ -13,6 +13,6 @@ numpy
 streamlit
 pandas
 
-# Analytics (optional — Delta Lake; match your Spark/Delta pair, e.g. Spark 4.x + delta-spark 4.x)
+# Analytics
 pyspark
 delta-spark
