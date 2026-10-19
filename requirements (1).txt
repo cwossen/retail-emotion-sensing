@@ -1,0 +1,18 @@
+# Retail Emotion Sensing — Python dependencies
+# Top-level packages. Pin exact versions from your working env with:
+#     pip freeze > requirements.txt
+# (deepface pulls in tensorflow automatically.)
+
+# Core CV pipeline
+ultralytics
+deepface
+opencv-python
+numpy
+
+# App & data
+streamlit
+pandas
+
+# Analytics (optional — Delta Lake; match your Spark/Delta pair, e.g. Spark 4.x + delta-spark 4.x)
+pyspark
+delta-spark

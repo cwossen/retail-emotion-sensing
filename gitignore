@@ -1,0 +1,41 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.python-version
+
+# ---- Secrets / config (NEVER commit) ----
+.env
+*.key
+*.pem
+
+# ---- Data & models (large or sensitive; link or document instead) ----
+data/*.db
+*.sqlite
+*.sqlite3
+models/*.pt
+models/*.onnx
+yolov8*.pt
+
+# ---- Pipeline outputs ----
+delta_output/
+temp/
+palette.png
+# large media at repo root (keep demo assets under docs/)
+/*.mp4
+/*.gif
+
+# ---- DeepFace weight cache ----
+.deepface/
+
+# ---- Rust build artifacts ----
+rust/**/target/
+
+# ---- OS / editors ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
