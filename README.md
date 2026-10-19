@@ -6,7 +6,7 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Status](https://img.shields.io/badge/status-research%20prototype-orange)
 
-![Demo](docs/demo.gif)
+![Demo](demo.gif)
 
 *Detection, multi-person tracking, and a per-person emotion read on in-store footage, with every face anonymized. The track IDs and emotion labels are the system's live output; the appraisal behind them runs in the cognition layer, off the frame.*
 
